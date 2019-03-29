@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!--本模块坐标-->
+	<groupId>com.khy.project</groupId>
+	<artifactId>user-center</artifactId>
+	<version>${com.khy.version}</version>
+	<packaging>jar</packaging>
+
+	<name>user-center</name>
+	<description>用户中心模块</description>
+
+	<!--引用父模块-->
+	<parent>
+		<groupId>com.khy.project</groupId>
+		<artifactId>springboot-demo-modules</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<!--相关依赖-->
+	<dependencies>
+
+		<dependency>
+			<groupId>com.khy.project</groupId>
+			<artifactId>common</artifactId>
+			<version>${com.khy.version}</version>
+		</dependency>
+	
+	</dependencies>
+
+	<!--插件资源管理-->
+	<build>
+		<plugins>
+
+		</plugins>
+
+		<!--加载所有配置信息-->
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+					<include>**/*.yml</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+
+	</build>
+
+</project>

@@ -1,0 +1,7 @@
+后台管理系统
+    模块说明：
+        common              通用基础工具模块
+        config-manage       配置管理模块
+        oauth-server        登录认证服务模块
+        user-center         用户中心模块（用户、角色、权限控制）
+        portal              应用入口模块

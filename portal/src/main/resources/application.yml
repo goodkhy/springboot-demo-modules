@@ -1,0 +1,32 @@
+#tomcat 启动端口配置
+server:
+  port: 9001
+#开发环境配置
+spring:
+  profiles:
+    active: dev
+#前端视图配置
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+#mybatis 配置
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
+  type-aliases-package: com.hiynn.sso.entity
+#pagehelper 分页插件配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  page-size-zero: true
+  support-methods-arguments: true
+  params: count=countSql
+#logging 配置
+logging:
+  config: classpath:logback.xml
+#security安全认证配置
+security:
+  basic:
+    enabled: false
+
+
