@@ -1,0 +1,7 @@
+*.iml
+*.idea
+*.sh
+*.classpath
+*.settings
+target
+logs
