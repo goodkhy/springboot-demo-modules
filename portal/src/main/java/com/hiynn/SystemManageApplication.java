@@ -18,6 +18,8 @@ public class SystemManageApplication {
     public static void main(String[] args) {
         SpringApplication.run(SystemManageApplication.class, args);
     }
+	
+	
 
 
 }
