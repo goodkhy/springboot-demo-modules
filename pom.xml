@@ -13,6 +13,7 @@
 	<description>springboot多模块架构脚手架</description>
 
 	<!-- 模块说明：这里声明多个子模块 -->
+	<!-- 我是dev分支新增内容 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
