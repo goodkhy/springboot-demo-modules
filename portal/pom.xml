@@ -22,11 +22,6 @@
 	<!--相关依赖-->
 	<dependencies>
 
-		<dependency>
-			<groupId>com.khy.project</groupId>
-			<artifactId>oauth-server</artifactId>
-			<version>${com.khy.version}</version>
-		</dependency>
 
 	</dependencies>
 

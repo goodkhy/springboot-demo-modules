@@ -13,7 +13,7 @@
 	<description>springboot多模块架构脚手架</description>
 
 	<!-- 模块说明：这里声明多个子模块 -->
-	<!-- 我是dev分支新增内容 --本地dev -->
+	<!-- 我是dev分支新增内容 -本地dev -->
 	<!-- 本地dev 第三次提交 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -41,8 +41,6 @@
 		<module>user-center</module>
 		<!--配置管理模块-->
 		<module>config-manage</module>
-		<!---认证服务模块-->
-		<module>oauth-server</module>
 		<!--应用入口模块-->
 		<module>portal</module>
 
@@ -187,17 +185,6 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.4</version>
-		</dependency>
-
-		<!--oauth2相关依赖-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security.oauth</groupId>
-			<artifactId>spring-security-oauth2</artifactId>
-			<version>2.0.14.RELEASE</version>
 		</dependency>
 
 	</dependencies>
